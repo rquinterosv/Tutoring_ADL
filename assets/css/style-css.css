@@ -1,0 +1,43 @@
+/* Replacing normalize */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-image: url('../img/css_challenge/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    text-align: left;
+    padding: 50px;
+    padding-left: 100px;
+    font-size: x-large;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+}
+
+
+.products {
+    width: 80%;
+    margin: auto;
+    }
+
+.products td {
+    width: 60%;
+    padding: 2em;
+    }
+
+.products img {
+    width: 100%;
+    border: solid 1px #ddd;
+    }
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+}
