@@ -1,0 +1,49 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+/* Estilos para desktop */
+#Hero-Section {
+  background-image: url("../img/home/bg-hero-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 767px) {
+  #Hero-Section {
+    background-image: url("../img/home/bg-hero.png");
+    background-size: cover; /* Ajusta el tamaño para que la imagen se ajuste dentro del contenedor */
+    background-position: center; /* Ajusta la posición de la imagen al centro */
+  }
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
